@@ -1,0 +1,22 @@
+1. mkdir CLI_exercise
+2. cd CLI_exercise
+3. touch empty_file
+4. ls -l empty_file
+5. man printf > empty_file
+6. ls -l empty_file
+7. mv empty_file printf_file
+8. cat printf_file
+9. man printf > printf_3_file
+10. diff printf_file printf_3_file
+11. rm printf_file
+12. grep -n printf printf_3_file
+13. grep -o printf printf_3_file | wc -l
+14. ln -s printf_3_file printf_3_soft
+15. ls -l printf_3_soft
+16. sed -i 's/printf/scanf/g' printf_3_file
+17. grep -o printf printf_3_soft | wc -l
+18. mkdir subfolder
+19. cd ..
+20. rm -r CLI_exercise
+21. top -b -n 1 | head -20
+22. history
